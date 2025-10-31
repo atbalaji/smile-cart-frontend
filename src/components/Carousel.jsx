@@ -54,7 +54,7 @@ const Carousel = ({ imageUrls, title }) => {
           }}
         />
       </div>
-      <div className="flex space-x-1">
+      <div className="m-2 flex space-x-1">
         {imageUrls.map((_, index) => (
           <span
             key={index}
